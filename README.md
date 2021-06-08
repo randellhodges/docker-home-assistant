@@ -1,0 +1,1 @@
+[homeassistant/home-assistant:latest](https://hub.docker.com/r/homeassistant/home-assistant) from hub.docker.com with some extra drivers/packages

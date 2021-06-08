@@ -52,5 +52,4 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           #tags: ${{ steps.meta.outputs.tags }}
           #labels: ${{ steps.meta.outputs.labels }}
-          tags: 
-            - randellhodges/home-assistant:latest
+          tags: randellhodges/home-assistant:latest

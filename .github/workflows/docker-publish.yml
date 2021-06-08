@@ -31,5 +31,6 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
+          context: .
           push: true
-          tags: home-assistant:master
+          tags: ghcr.io/randellhodges/home-assistant:latest
